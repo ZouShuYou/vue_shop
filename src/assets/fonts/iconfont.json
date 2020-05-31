@@ -1,0 +1,23 @@
+{
+  "id": "1831277",
+  "name": "1",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "386355",
+      "name": "锁",
+      "font_class": "suo",
+      "unicode": "e61f",
+      "unicode_decimal": 58911
+    },
+    {
+      "icon_id": "8776631",
+      "name": "view",
+      "font_class": "icon-test",
+      "unicode": "e633",
+      "unicode_decimal": 58931
+    }
+  ]
+}
