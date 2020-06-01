@@ -15,7 +15,7 @@
       >
         <!-- 用户名 -->
         <el-form-item label="用户" prop="username">
-          <el-input v-model="loginForm.username" prefix-icon="iconfont iconicon-test"></el-input>
+          <el-input v-model="loginForm.username" prefix-icon="iconfont iconyonghu"></el-input>
         </el-form-item>
 
         <!-- 密码 -->
