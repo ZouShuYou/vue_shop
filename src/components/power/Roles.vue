@@ -55,7 +55,6 @@
                 </el-row>
               </el-col>
             </el-row>
-            <pre>{{scope.row}}</pre>
           </template>
         </el-table-column>
         <el-table-column type="index"></el-table-column>
@@ -190,8 +189,6 @@ export default {
       this.getRolesList();
     },
     async showEditDialog(id) {
-      console.log(id);
-
       const { data: res } = await this.$http.get("roles/" + id);
       if (res.meta.status !== 200) {
         return this.$message.error("查询角色失败");
