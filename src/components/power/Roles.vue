@@ -13,7 +13,7 @@
           <el-button type="primary" @click="addRoleVisible = true">添加角色</el-button>
         </el-col>
       </el-row>
-      <el-table :data="roleList" border="true" stripe="true">
+      <el-table :data="roleList" :border="true" :stripe="true">
         <el-table-column type="expand">
           <template slot-scope="scope">
             <el-row

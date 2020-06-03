@@ -81,7 +81,7 @@
             :options="parentCateList"
             :props="{ expandTrigger: 'hover' , value:'cat_id' , label:'cat_name',children:'children' }"
             @change="parentCateChange"
-            clearable="true"
+            :clearable="true"
             change-on-select="true"
           ></el-cascader>
         </el-form-item>
