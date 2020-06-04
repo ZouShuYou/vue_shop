@@ -7,7 +7,7 @@
       <el-breadcrumb-item>角色列表</el-breadcrumb-item>
     </el-breadcrumb>
 
-    <el-crad>
+    <el-card>
       <el-row>
         <el-col>
           <el-button type="primary" @click="addRoleVisible = true">添加角色</el-button>
@@ -83,7 +83,7 @@
           </template>
         </el-table-column>
       </el-table>
-    </el-crad>
+    </el-card>
 
     <!-- 添加角色对话框 -->
     <el-dialog title="添加角色" :visible.sync="addRoleVisible" width="50%" @close="addRoleDialogClose">

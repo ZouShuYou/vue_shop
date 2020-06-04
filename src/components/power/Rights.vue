@@ -7,7 +7,7 @@
       <el-breadcrumb-item>权限列表</el-breadcrumb-item>
     </el-breadcrumb>
 
-    <el-crad>
+    <el-card>
       <el-table :data="rightsList" :border="true" :stripe="true">
         <el-table-column type="index"></el-table-column>
         <el-table-column label="权限名称" prop="authName"></el-table-column>
@@ -20,7 +20,7 @@
           </template>
         </el-table-column>
       </el-table>
-    </el-crad>
+    </el-card>
   </div>
 </template>
 
